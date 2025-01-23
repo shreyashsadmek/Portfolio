@@ -1,0 +1,33 @@
+
+.more-about-me-container {
+    background-color: #f1f8fc; 
+    color: #333; 
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .more-about-me-container h2 {
+    font-size: 2rem;
+    color: #1d3557;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .more-about-me-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555; 
+  }
+  
+  .more-about-me-container p:last-child {
+    margin-bottom: 0; 
+  }
+  
+  
+  .more-about-me-container {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

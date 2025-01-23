@@ -1,0 +1,71 @@
+
+.resume-section {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .resume-image {
+    max-width: 80%;
+    height: auto;
+    border: 2px solid #457b9d;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .resume-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .resume-section p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #1d3557;
+  }
+  
+  
+  .skills-section {
+    text-align: center;
+    margin: 30px 10px;
+  }
+  
+  .skills-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1d3557;
+  }
+  
+  .skills-category {
+    margin: 20px 0;
+  }
+  
+  .skills-category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #457b9d;
+  }
+  
+  .skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .skills-box span {
+    background-color: #a8dadc;
+    color: #1d3557;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .skills-box span:hover {
+    background-color: #457b9d;
+    color: #fff;
+    transform: scale(1.1);
+  }
+  
