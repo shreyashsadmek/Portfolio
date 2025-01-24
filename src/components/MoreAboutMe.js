@@ -56,7 +56,7 @@ function MoreAboutMe() {
     <h2>Contact Me!</h2>
       <p>
         
-         Feel free to reach out to me on any of my socials, including Instagram and LinkedIn, or via email at xyz@gmail.com. You can also directly contact me at 123-456-789.  
+         Feel free to reach out to me on any of my socials, including Instagram and LinkedIn, or via email at shreyashsadmek@gmail.com. You can also directly contact me at +91-8767535837.  
     </p>
 
     </div>
