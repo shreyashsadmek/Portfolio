@@ -1,0 +1,48 @@
+.internship-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .internship-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+   h3{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bolder;
+   }
+
+  .internship-box {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .internship-box h4 {
+    margin-bottom: 10px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .intern-description {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .offer-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .offer-link:hover {
+    text-decoration: underline;
+  }

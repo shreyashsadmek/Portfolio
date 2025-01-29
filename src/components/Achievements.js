@@ -19,7 +19,7 @@ const Achievements = () => {
       <div className="achievement-box">
         <h3>Technosphere 2023</h3>
         <p>
-          Volunteered in conducting the Technosphere, a college level event by volutering in various events
+          Volunteered in conducting the Technosphere, a college level event by volutering in various events.
         </p>
         <div className="date">Event Date: Jul 2021</div>
       </div>

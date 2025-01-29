@@ -3,6 +3,7 @@ import { BrowserRouter as Router} from "react-router-dom";
 import Education from "./components/Education";
 import ResumeSkills from "./components/ResumeSkills";
 import Projects from "./components/Projects";
+import Internship from "./components/Internship";
 import Certifications from "./components/Certifications";
 import Achievements from "./components/Achievements";
 import MoreAboutMe from "./components/MoreAboutMe";
@@ -77,36 +78,49 @@ function App() {
           >
             Education
           </button>
+
           <button
             className="box"
             onClick={() => togglePage("resume-skills")}
           >
             Resume and Skills
           </button>
+
           <button
             className="box"
             onClick={() => togglePage("projects")}
           >
             Projects
           </button>
+
+          <button
+            className="box"
+            onClick={() => togglePage("internships")}
+          >
+            Professional Experience  
+          </button>
+
           <button
             className="box"
             onClick={() => togglePage("certifications")}
           >
             Certifications
           </button>
+
           <button
             className="box"
             onClick={() => togglePage("achievements")}
           >
             Achievements
           </button>
+
           <button
             className="box"
             onClick={()=> togglePage("moreAboutMe")}
           >  
             More About Me
           </button>
+
         </div>
 
         
@@ -114,6 +128,7 @@ function App() {
           {currentPage === "education" && <Education />}
           {currentPage === "resume-skills" && <ResumeSkills />}
           {currentPage === "projects" && <Projects />}
+          {currentPage === "internships" && <Internship />}
           {currentPage === "certifications" && <Certifications />}
           {currentPage === "achievements" && <Achievements />}
           {currentPage === "moreAboutMe" && <MoreAboutMe />}

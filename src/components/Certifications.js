@@ -14,7 +14,15 @@ const Certifications = () => {
         </div>
       </div>
 
-      
+      <div className="certificate-box">
+        <h3 className="certificate-title">Responsive Web-Design, freeCodeCamp</h3>
+        <img src={require('../assets/Certificates/FreeCodeCampWebDesign.jpg')}
+        alt="Web-Design Certificate" className="certificate-image" />
+        <div className="certificate-details">
+          <p className="date-obtained">Date Obtained: <span>26 Jan 2025</span></p>
+        </div>
+      </div>
+
       <div className="certificate-box">
         <h3 className="certificate-title">NVIDIA Accelerated Computing with CUDA C/C++</h3>
         <img src={require('../assets/Certificates/CUDA.jpg')}

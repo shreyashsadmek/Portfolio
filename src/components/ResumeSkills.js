@@ -10,7 +10,7 @@ const ResumeSkills = () => {
         <a href={require("../assets/Resume/Resume.pdf" )} 
           target="_blank" 
             rel="noopener noreferrer">
-        <img src={require("../assets/Resume/Resume.png")} 
+        <img src={require("../assets/Resume/Resume.jpg")} 
           alt="Resume Preview" 
             className="resume-image" />   
         </a>
